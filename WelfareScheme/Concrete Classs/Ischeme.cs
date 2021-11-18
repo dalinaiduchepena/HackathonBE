@@ -8,6 +8,6 @@ namespace WelfareScheme.Concrete_Classs
 {
     public interface Ischeme
     {
-        Task<SchemeModel>  GetSchemeDetails(string words);
+        Task<List<SchemeModel>>  GetSchemeDetails(string words);
     }
 }

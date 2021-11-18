@@ -10,8 +10,9 @@ namespace WelfareScheme.Concrete_Classs
 {
     public class SchemeConcrete : Ischeme
     {
-        public async Task<SchemeModel> GetSchemeDetails(string words)
+        public async Task<List<SchemeModel>> GetSchemeDetails(string words)
         {
+            List<SchemeModel> modellist = new List<SchemeModel>();
             var schemeModel = new SchemeModel();
             string[] SchemeName = { "Pradhan", "Mantri", "Garib", "Kalyan", "Yojana" } ;
             string[] Names = (SchemeName.Where(a => words.Contains(a.ToLower()))).ToArray();
@@ -59,7 +60,8 @@ namespace WelfareScheme.Concrete_Classs
 
             string[] desc = (Description.Where(a => words.Contains(a.ToLower()))).ToArray();
             schemeModel.SchemeDescription = String.Join(",", desc);
-            return schemeModel;
+            modellist.Add(schemeModel);
+            return modellist;
         }
 
         public static async Task<string[]> GetDocumentsNeeded(string words)

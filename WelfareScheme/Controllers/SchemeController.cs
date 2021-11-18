@@ -35,7 +35,7 @@ namespace WelfareScheme.Controllers
         // public async Task<string[]> GetAsync()
         {
             ////able to get raw data in console
-            SingleResponse<SchemeModel> response = new SingleResponse<SchemeModel>();
+            SingleResponse<List<SchemeModel>> response = new SingleResponse<List<SchemeModel>>();
             HtmlAgilityPack.HtmlWeb web = new HtmlAgilityPack.HtmlWeb();
             HtmlAgilityPack.HtmlDocument doc = web.Load("https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1608345");
             var val = doc.DocumentNode.SelectNodes("//div[@class ='innner-page-main-about-us-content-right-part']").ToList();
