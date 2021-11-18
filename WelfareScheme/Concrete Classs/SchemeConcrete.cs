@@ -22,7 +22,7 @@ namespace WelfareScheme.Concrete_Classs
             schemeModel.StateCentralScheme = Scheme;
             string[] beneficiaries = { "BC/ MBC", "SC/ ST",
                     "Handloom Weaver",
-                    "farmers",
+                    "Farmers",
                     "Manufacturers",
                     "Nation Cadet Crops",
                     "Pregnant Women",
