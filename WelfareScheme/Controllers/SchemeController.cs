@@ -51,7 +51,7 @@ namespace WelfareScheme.Controllers
             //string[] words1 = Regex.Split(result, @"\W+");
             //return Ok(result);
             response.Model = await _scheme.GetSchemeDetails(result.ToLower());
-            return response.ToHttpResponse();
+            return Ok(response);
         }
 
         //[HttpGet("GetBenificiaries/Result/{result}")]
