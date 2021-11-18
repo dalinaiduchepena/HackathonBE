@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WelfareScheme", "WelfareScheme\WelfareScheme.csproj", "{1F459518-C8FC-4276-B2C5-3163622E9188}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F459518-C8FC-4276-B2C5-3163622E9188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F459518-C8FC-4276-B2C5-3163622E9188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F459518-C8FC-4276-B2C5-3163622E9188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F459518-C8FC-4276-B2C5-3163622E9188}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6360E40C-E161-4619-A01B-9780F304349E}
+	EndGlobalSection
+EndGlobal
